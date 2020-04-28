@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layoutDirection="ltr"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/butt"
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#00ffffff"
+        android:textSize="19dp"
+        android:layout_gravity="center"
+        android:textColor="#f43173"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="تنظیمات اتصال خودکار"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+         android:text="در صورت فعال سازی نرم افزار به صورت خودکار در هنگام اجرا به دستگاه متصل میشود"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/checkBox_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="اتصال خودکار" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:id="@+id/auto_save"
+            android:textColor="#f43173"
+            android:textSize="18dp"
+            android:background="#00ffffff"
+            android:text="ذخیره"/>
+    </LinearLayout>
+</LinearLayout>

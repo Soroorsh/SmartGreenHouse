@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="225.16061" android:viewportHeight="225.16064"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/color_siegenia_blue_colorless_selector" android:pathData="m225.16,140.73 l-42.22,-42.22 0,0 0,0 -56.29,-0 0,-56.29 0,0 0,0 -42.22,-42.22 -84.44,84.44 42.22,42.22 0,0 0,0 56.29,0 -0,56.29 0,0 0,0 42.22,42.22 84.44,-84.44m-172.39,-31.66 l-24.63,-24.63 56.29,-56.29 24.63,24.63 0,56.29 -56.29,0m63.33,7.04 l56.29,-0 24.63,24.63 -56.29,56.29 -24.63,-24.63 0,-56.29z" android:fillAlpha="1.0" />
+    <path android:fillColor="@color/color_siegenia_blue_colorless_selector" android:pathData="m33.13,84.53 l72.86,0 0,21.07 -51.79,0z" android:fillAlpha="1.0" />
+</vector>

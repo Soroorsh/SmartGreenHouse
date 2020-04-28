@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="ellipse" android:fillColor="@color/color_siegenia_blue_selector" android:pathData="m8 0c4.418 0 8 3.582 8 8c0 4.418 -3.582 8 -8 8c-4.418 0 -8 -3.582 -8 -8c0 -4.418 3.582 -8 8 -8z" />
+    <path android:name="key" android:fillColor="#ffffffff" android:pathData="m5.273 6.704c0.703 0 1.273 0.58 1.273 1.296c0 0.716 -0.57 1.296 -1.273 1.296c-0.703 0 -1.273 -0.58 -1.273 -1.296c0 -0.716 0.57 -1.296 1.273 -1.296zm0 -2.037c-1.807 0 -3.273 1.492 -3.273 3.333c0 1.841 1.465 3.333 3.273 3.333c1.425 0 2.637 -0.928 3.087 -2.222h2.368v2.222h2.182v-2.222h1.091v-2.222h-5.641c-0.449 -1.295 -1.662 -2.222 -3.087 -2.222z" />
+</vector>

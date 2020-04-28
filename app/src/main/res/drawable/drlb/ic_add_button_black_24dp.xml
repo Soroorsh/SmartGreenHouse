@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="frame" android:fillColor="#ff000000" android:pathData="m21 3v18h-18v-18zm-17.667 -3c-1.841 0 -3.333 1.492 -3.333 3.333v17.333c0 1.841 1.492 3.333 3.333 3.333h17.333c1.841 0 3.333 -1.492 3.333 -3.333v-17.333c0 -1.841 -1.492 -3.333 -3.333 -3.333z" />
+    <path android:name="button top" android:fillColor="#ff000000" android:pathData="m3.964 4.32h16l-1.964 7.68h-12l-2.036 -7.68z" />
+    <path android:name="button bottom" android:fillColor="#ff000000" android:pathData="m6 13h12l2 7h-16l2 -7z" />
+</vector>

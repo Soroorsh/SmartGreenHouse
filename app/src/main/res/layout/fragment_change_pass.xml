@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+android:background="@drawable/background_btn"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center|top"
+        android:gravity="center|top"
+        android:padding="25dp"
+        android:layout_marginTop="35dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:primaryColor="@color/color_blue"
+        app:errorColor="@color/green_600"
+        app:helperTextColor="#795548"
+        app:labelText="password"
+        >
+        <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+            android:id="@+id/login_pass"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+<!--    <mehdi.sakout.fancybuttons.FancyButton-->
+<!--        android:id="@+id/btn_login_changepass"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--         android:layout_width="match_parent"-->
+<!--        android:layout_height="59dp"-->
+<!--         android:padding="8dp"-->
+<!--        fancy:fb_borderColor="#FFFFFF"-->
+<!--        fancy:fb_borderWidth="2dp"-->
+<!--        fancy:fb_defaultColor="@color/colorPrimary"-->
+<!--        fancy:fb_focusColor="#8cc9f8"-->
+<!--        fancy:fb_iconResource="@drawable/user"-->
+<!--        fancy:fb_fontIconSize="25sp"-->
+<!--        fancy:fb_iconPosition="left"-->
+<!--        fancy:fb_radius="15dp"-->
+<!--        fancy:fb_text="Login"-->
+<!--        fancy:fb_textColor="#FFFFFF">-->
+<!--    </mehdi.sakout.fancybuttons.FancyButton>-->
+
+</LinearLayout>
+</LinearLayout>

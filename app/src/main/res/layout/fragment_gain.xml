@@ -1,0 +1,434 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_btn_r"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:id="@+id/text_field_boxes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                app:errorColor="#ddaa00"
+                app:helperTextColor="#795548"
+                app:labelText="GAIN1:9-12"
+                app:primaryColor="@color/deep_orange_400">
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/gain1_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp" />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_send1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                fancy:fb_borderColor="@color/white"
+                fancy:fb_borderWidth="4dp"
+                fancy:fb_defaultColor="@color/deep_orange_400"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_iconResource="@drawable/ic_menu_send"
+                fancy:fb_fontIconSize="25sp"
+                fancy:fb_iconPosition="right"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="Send"
+                fancy:fb_textColor="#FFFFFF">
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+        </LinearLayout>
+
+///-----------------------------2--------------------------------
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:primaryColor="@color/deep_orange_400"
+                app:errorColor="#ddaa00"
+                app:helperTextColor="#795548"
+                app:labelText="GAIN2:40-46"
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/gain2_et"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_send2"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="4dp"
+                fancy:fb_defaultColor="@color/deep_orange_400"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_iconResource="@drawable/ic_menu_send"
+                fancy:fb_fontIconSize="25sp"
+                fancy:fb_iconPosition="right"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="Send"
+                fancy:fb_textColor="#FFFFFF">
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+        </LinearLayout>
+
+        ///-------------------------3------------------------------------
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:primaryColor="@color/deep_orange_400"
+                app:errorColor="#ddaa00"
+                app:helperTextColor="#795548"
+                app:labelText="GAIN3:100-110"
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/gain3_et"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_send3"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="4dp"
+                fancy:fb_defaultColor="@color/deep_orange_400"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_iconResource="@drawable/ic_menu_send"
+                fancy:fb_fontIconSize="25sp"
+                fancy:fb_iconPosition="right"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="Send"
+                fancy:fb_textColor="#FFFFFF">
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+        </LinearLayout>
+
+        ///-------------------------4------------------------------------
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:primaryColor="@color/deep_orange_400"
+                app:errorColor="#ddaa00"
+                app:helperTextColor="#795548"
+                app:labelText="GAIN4:215-230"
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/gain4_et"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_send4"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="4dp"
+                fancy:fb_defaultColor="@color/deep_orange_400"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_iconResource="@drawable/ic_menu_send"
+                fancy:fb_fontIconSize="25sp"
+                fancy:fb_iconPosition="right"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="Send"
+                fancy:fb_textColor="#FFFFFF">
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+        </LinearLayout>
+
+
+        ///------------------------5-------------------------------------
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:primaryColor="@color/deep_orange_400"
+                app:errorColor="#ddaa00"
+                app:helperTextColor="#795548"
+                app:labelText="GAIN5:460-480"
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/gain5_et"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_send5"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="4dp"
+                fancy:fb_defaultColor="@color/deep_orange_400"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_iconResource="@drawable/ic_menu_send"
+                fancy:fb_fontIconSize="25sp"
+                fancy:fb_iconPosition="right"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="Send"
+                fancy:fb_textColor="#FFFFFF">
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+        </LinearLayout>
+
+
+        ///--------------------6-----------------------------------------
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:primaryColor="@color/deep_orange_400"
+                app:errorColor="#ddaa00"
+                app:helperTextColor="#795548"
+                app:labelText="GAIN6"
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/gain6_et"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_send6"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="4dp"
+                fancy:fb_defaultColor="@color/deep_orange_400"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_iconResource="@drawable/ic_menu_send"
+                fancy:fb_fontIconSize="25sp"
+                fancy:fb_iconPosition="right"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="Send"
+                fancy:fb_textColor="#FFFFFF">
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+        </LinearLayout>
+
+
+        ///-----------------------7--------------------------------------
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:primaryColor="@color/deep_orange_400"
+                app:errorColor="#ddaa00"
+                app:helperTextColor="#795548"
+                app:labelText="GAIN7"
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/gain7_et"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_send7"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="4dp"
+                fancy:fb_defaultColor="@color/deep_orange_400"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_iconResource="@drawable/ic_menu_send"
+                fancy:fb_fontIconSize="25sp"
+                fancy:fb_iconPosition="right"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="Send"
+                fancy:fb_textColor="#FFFFFF">
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+        </LinearLayout>
+
+
+        ///-------------------------8------------------------------------
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:primaryColor="@color/deep_orange_400"
+                app:errorColor="#ddaa00"
+                app:helperTextColor="#795548"
+                app:labelText="GAIN8"
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/gain8_et"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_send8"
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="4dp"
+                fancy:fb_defaultColor="@color/deep_orange_400"
+                fancy:fb_focusColor="#8cc9f8"
+                fancy:fb_iconResource="@drawable/ic_menu_send"
+                fancy:fb_fontIconSize="25sp"
+                fancy:fb_iconPosition="right"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="Send"
+                fancy:fb_textColor="#FFFFFF">
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

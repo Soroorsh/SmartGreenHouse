@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/launch_screen_comfort" android:left="30.0dip" android:top="100.0dip" android:right="30.0dip" android:bottom="100.0dip" />
+</layer-list>

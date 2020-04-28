@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="128.0dip" android:width="128.0dip" android:viewportWidth="128.0" android:viewportHeight="128.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="frame" android:fillColor="#ff777777" android:pathData="m98 46v68h-68v-68zm-68.67 -14c-7.36 0 -13.33 5.97 -13.33 13.33v69.33c0 7.36 5.97 13.33 13.33 13.33h69.33c7.36 0 13.33 -5.97 13.33 -13.33v-69.33c0 -7.36 -5.97 -13.33 -13.33 -13.33z" />
+    <path android:name="button top" android:fillColor="#ff777777" android:pathData="m31 47h66l-5 33h-56l-5 -33z" />
+    <path android:name="button bottom" android:fillColor="#ff777777" android:pathData="m36 80h56l5 33h-66l5 -33z" />
+    <path android:name="warn" android:fillColor="#ffd50000" android:pathData="m64 5.01 -12.01 20.99h24.01l-12.01 -20.99zm1.09 17.67h-2.18v-2.21h2.18v2.21zm-2.18 -4.42v-4.42h2.18v4.42h-2.18z" />
+</vector>

@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/Disconnect"
+        android:icon="@drawable/connect_icon"
+        android:title="@string/disconnect"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/fastconnect"
+        android:icon="@drawable/connect_icon_"
+        android:title="@string/fastconnect"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/connect_ip_port"-->
+        <!--android:title="ثبت آی پی"-->
+
+        <!--app:showAsAction="never" />-->
+
+
+
+
+
+    <item
+        android:id="@+id/auto_connect"
+        android:orderInCategory="200"
+        android:title="@string/auto_connect"
+        android:visible="true"
+        app:showAsAction="never" />
+
+
+    <!--<item-->
+        <!--android:id="@+id/change_pass"-->
+        <!--android:orderInCategory="200"-->
+        <!--android:title="@string/change_pass"-->
+        <!--android:visible="true"-->
+        <!--app:showAsAction="never" />-->
+
+
+
+    <!--<item-->
+        <!--android:id="@+id/about"-->
+        <!--android:orderInCategory="200"-->
+        <!--android:title="درباره برنامه"-->
+        <!--app:showAsAction="never" />-->
+</menu>
+

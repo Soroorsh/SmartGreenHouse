@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_rfid_tag_capture"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="rfid_tag_grp" android:animation="@animator/pulsate_size_of_grp" />
+    <target android:name="rfid_tag_path" android:animation="@animator/pulsate_color_of_path" />
+</animated-vector>

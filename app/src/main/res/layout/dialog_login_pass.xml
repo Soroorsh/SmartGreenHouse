@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center|top"
+        android:gravity="center|top|right"
+        android:padding="10dp"
+
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/butt"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:background="#00ffffff"
+            android:textSize="19dp"
+            android:textColor="#f43173"
+            android:textStyle="bold"
+            android:text="رمز ورود را وارد کنید:"
+            />
+
+
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:primaryColor="#f43173"
+            app:errorColor="@color/colorSwitchColor"
+            app:helperTextColor="#ff0004"
+            android:layout_marginTop="5dp"
+
+            app:labelText="password"
+            >
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/login_gain_pass"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content"
+    android:gravity="center|right"
+    >
+
+
+    <Button
+        android:layout_width="70dp"
+        android:id="@+id/btn_exit"
+        android:background="#00fafafa"
+        android:text="Exit"
+        android:textColor="#f43173"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="60dp"
+        android:id="@+id/btn_enterpass"
+        android:background="#00789585"
+        android:text="Enter"
+        android:layout_marginRight="10dp"
+        android:textColor="#f43173"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

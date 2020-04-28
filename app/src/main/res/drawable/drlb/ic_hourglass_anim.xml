@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@android:integer/config_mediumAnimTime" android:drawable="@drawable/ic_hourglass_anim_1" />
+    <item android:duration="@android:integer/config_longAnimTime" android:drawable="@drawable/ic_hourglass_anim_2" />
+    <item android:duration="@android:integer/config_mediumAnimTime" android:drawable="@drawable/ic_hourglass_anim_3" />
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/ic_hourglass_anim_4" />
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/ic_hourglass_anim_5" />
+    <item android:duration="@android:integer/config_shortAnimTime" android:drawable="@drawable/ic_hourglass_anim_6" />
+</animation-list>

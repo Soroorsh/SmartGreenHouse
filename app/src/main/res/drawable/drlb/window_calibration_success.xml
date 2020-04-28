@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="128.0dip" android:width="128.0dip" android:viewportWidth="128.0" android:viewportHeight="128.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="sensor" android:fillColor="#ff777777" android:pathData="m89 80v5h-1v-5zm3 0v5h-1v-5zm3 0v5h-1v-5zm3 0v5h-1v-5zm-12 -6v12h42v-8c0 -2.21 -1.79 -4 -4 -4zm-82 0c-2.21 0 -4 1.79 -4 4v12c0 2.21 1.79 4 4 4h81v-20zm82 13v7h38c2.21 0 4 -1.79 4 -4v-3z" />
+    <path android:name="check" android:fillColor="#ff0bbe00" android:pathData="m64 29.99c-6.61 0 -12.01 5.4 -12.01 12.01c0 6.61 5.4 12.01 12.01 12.01c6.61 0 12.01 -5.4 12.01 -12.01c0 -6.61 -5.4 -12.01 -12.01 -12.01zm-2.4 18.02 -6.01 -6.01 1.68 -1.68 4.32 4.32 9.13 -9.13 1.68 1.68 -10.81 10.81z" />
+</vector>

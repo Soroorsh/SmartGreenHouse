@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="280.7168" android:viewportHeight="280.7168"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/color_siegenia_blue_colorless_selector" android:pathData="m52.26,68.81 l0,38.76 -47.88,0 0,65.56 47.88,0 0,38.76 44.06,-35.77 44.04,-35.76 44.04,35.76 44.06,35.77 0,-38.76 47.88,0 0,-65.56 -47.88,0 0,-38.76 -44.06,35.77 -44.04,35.76 -44.04,-35.76 -44.06,-35.77z" android:fillAlpha="1.0" />
+</vector>
